@@ -786,3 +786,86 @@ h2{
 .pagination{
     margin: 0;
 }
+
+/*Own css*/
+
+#jumbotron {
+    float: right;
+    /*padding: 20px 5px 15px 35px;*/
+    font-size: 55px;
+    font-weight: 600;
+    color: #2B4F71;
+    text-align: right;
+
+}
+
+
+.seniorImg{
+    background-image: url("../img/new/senior.jpg");
+    min-height: 800px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+.info{
+    background: #2B4F71;
+    position: absolute;
+    bottom: 80px;
+    color: #fff;
+    font-size: x-large;
+}
+.centered-button{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+@media screen and (max-device-width: 1440px) {
+    .info{
+        background: #2B4F71;
+        position: absolute;
+        bottom: 114px;
+        color: #fff;
+        font-size: x-large;
+        right: 150px;
+    }
+}
+
+@media screen and (max-device-width: 1024px) {
+    .info{
+        background: #2B4F71;
+        position: absolute;
+        bottom: 114px;
+        color: #fff;
+        font-size: x-large;
+        right: 85px;
+    }
+}
+@media screen and (max-device-width: 1024px) {
+    .info{
+        background: #2B4F71;
+        position: absolute;
+        bottom: 164px;
+        color: #fff;
+        font-size: x-large;
+        right: 105px;
+    }
+}
+
+#demo{
+    margin-left: 10px;
+    background: blueviolet;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.apply{
+    position: absolute;
+    bottom: 25px;
+    /*color: #fff;*/
+    font-size: x-large;
+}
