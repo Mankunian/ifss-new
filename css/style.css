@@ -30,7 +30,7 @@ Header
 **************************************/
 .section-padding
 {
-	/*padding: 40px 0px;*/
+	padding: 40px 0px;
 }
 .main-navigation
 {
@@ -879,3 +879,29 @@ h2{
     /*color: #fff;*/
     font-size: x-large;
 }
+
+.applyPartners{
+    position: absolute;
+    /*bottom: 25px;*/
+    /*color: #fff;*/
+    font-size: x-large;
+}
+
+
+/*slider*/
+#myCarousel .nav a small {
+    display:none;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
+
+.carousel-caption{
+    top: 30%;
+}
+
+
