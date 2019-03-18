@@ -896,7 +896,7 @@ h2{
     background:#eee;
 }
 #myCarousel .nav a {
-    border-radius:0px;
+    border-radius:0;
 }
 
 
@@ -904,4 +904,15 @@ h2{
     top: 30%;
 }
 
+#div2{
+    display: none;
+}
+
+#div4{
+    display: none;
+}
+
+#showGameInfo{
+    display: none;
+}
 
