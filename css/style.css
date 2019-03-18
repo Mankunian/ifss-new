@@ -812,7 +812,7 @@ h2{
 
 .seniorImg{
     background-image: url("../img/new/senior.jpg");
-    min-height: 800px;
+    min-height: 500px;
     background-size: cover !important;
     background-position: 50% 50% !important;
 }
@@ -837,10 +837,10 @@ h2{
     .info{
         background: #2B4F71;
         position: absolute;
-        bottom: 114px;
+        bottom: 22px;
         color: #fff;
-        font-size: x-large;
-        right: 150px;
+        font-size: large;
+        right: 211px;
     }
 }
 
@@ -848,22 +848,13 @@ h2{
     .info{
         background: #2B4F71;
         position: absolute;
-        bottom: 114px;
+        bottom: 88px;
         color: #fff;
-        font-size: x-large;
-        right: 85px;
-    }
-}
-@media screen and (max-device-width: 1024px) {
-    .info{
-        background: #2B4F71;
-        position: absolute;
-        bottom: 164px;
-        color: #fff;
-        font-size: x-large;
+        font-size: large;
         right: 105px;
     }
 }
+
 
 #demo{
     margin-left: 10px;
