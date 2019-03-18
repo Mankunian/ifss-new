@@ -258,12 +258,21 @@
                 <div class="team-info">
                     <div class="img-sec">
                         <img id="hideImg" src="img/0.jpg" class="img-responsive">
-                        <div id="showImg" style="display: none">
+
+                        <!--<div id="showImg" style="display: none">
                             <img src="img/0.jpg" alt="" class="img-responsive" style="margin: 0 auto; width: 80%">
                             <h2>Game Development</h2>
                             <h4 style="padding: 10px">Immerse into cyber world and make your own old fashioned arcade
                                 machine using Python and Raspberry Pi platform.</h4>
-                        </div>
+                        </div>-->
+
+                        <!--<div id="spaceInfo" style="display: none">
+                            <img src="img/0.jpg" alt="" class="img-responsive" style="margin: 0 auto; width: 80%">
+                            <h2>Space Engineering</h2>
+                            <h4 style="padding: 10px">Acquire exceptional skills in three weeks to
+                                explore stars and launch your own rocket
+                                into space.</h4>
+                        </div>-->
                     </div>
                     <div id="div1" class="fig-caption" style="font-family: Adobe">
                         <h1 style="text-align: center;">Academics</h1>
@@ -288,22 +297,7 @@
                                     <h4><a id="esl">ESL</a></h4>
                                 </li>
                             </ul>
-                            <script>
-                                document.getElementById("game").addEventListener("click", switchImage, false);
 
-                                function switchImage() {
-                                    if (document.getElementById('hideImg') !== undefined) {
-
-                                        if (document.getElementById('hideImg').style.display === 'block') {
-                                            document.getElementById('hideImg').style.display = 'none';
-                                            document.getElementById('showImg').style.display = 'block';
-                                        } else {
-                                            document.getElementById('hideImg').style.display = 'block';
-                                            document.getElementById('showImg').style.display = 'none';
-                                        }
-                                    }
-                                }
-                            </script>
                         </div>
 
                         <a style="margin: 80px" id="back"><<< back</a>
@@ -359,6 +353,11 @@
             <!--Academics options-->
 
 
+
+
+
+
+
             <!--Electives options-->
             <div class="col-md-12">
                 <div class="team-info">
@@ -383,34 +382,19 @@
                                     <h4><a id="tennis">Tennis</a></h4>
                                 </li>
                             </ul>
-                            <script>
-                                document.getElementById("tennis").addEventListener("click", switchImage, false);
 
-                                function switchImage() {
-                                    if (document.getElementById('hideImgElective') !== undefined) {
-
-                                        if (document.getElementById('hideImgElective').style.display === 'block') {
-                                            document.getElementById('hideImgElective').style.display = 'none';
-                                            document.getElementById('showImgElective').style.display = 'block';
-                                        } else {
-                                            document.getElementById('hideImgElective').style.display = 'block';
-                                            document.getElementById('showImgElective').style.display = 'none';
-                                        }
-                                    }
-                                }
-                            </script>
                             <a style="margin: 80px" id="backElectives"><<< back</a>
                         </div>
 
                     </div>
                     <div class="img-sec">
                         <img id="hideImgElective" src="img/02.jpg" class="img-responsive">
-                        <div id="showImgElective" style="display: none">
+                        <!--<div id="showImgElective" style="display: none">
                             <img src="img/02.jpg" alt="" class="img-responsive" style="width: 80%; margin: 0 auto">
                             <h2>Tennis</h2>
                             <h4 style="padding: 10px">Professional coaches work with our summer students to teach them
                                 new skills, achieve their personal goals and develop a love of the game.</h4>
-                        </div>
+                        </div>-->
                     </div>
 
                     <script>
@@ -469,13 +453,13 @@
                 <div class="team-info">
                     <div class="img-sec">
                         <img id="hideImgActivities" src="img/01.jpg" class="img-responsive">
-                        <div id="showImgActivities" style="display: none;">
+                        <!--<div id="showImgActivities" style="display: none;">
                             <img src="img/01.jpg" alt="z" class="img-responsive" style="width: 80%; margin: 0 auto">
                             <h2>Additional Activities</h2>
                             <h4 style="padding: 10px;">Throughout summer school, students are offered many opportunities
                                 to take part in a variety of outdoor pursuits and activities, scheduled at weekends and
                                 during timetabled activity periods</h4>
-                        </div>
+                        </div>-->
                     </div>
                     <div id="div5" class="fig-caption" style="font-family: 'Libre Baskerville', serif;">
                         <h1 style="text-align: center;">Activities</h1>
@@ -518,20 +502,6 @@
                             }
                         }
 
-                        document.getElementById("add").addEventListener("click", infoAdd, false);
-                        function infoAdd() {
-                            if (document.getElementById('hideImgActivities') !== undefined) {
-
-                                if (document.getElementById('hideImgActivities').style.display === 'block') {
-                                    document.getElementById('hideImgActivities').style.display = 'none';
-                                    document.getElementById('showImgActivities').style.display = 'block';
-                                } else {
-                                    document.getElementById('hideImgActivities').style.display = 'block';
-                                    document.getElementById('showImgActivities').style.display = 'none';
-                                }
-                            }
-                        }
-
 
 
 
@@ -550,20 +520,7 @@
                             }
                         }
 
-                        document.getElementById("backActivities").addEventListener("click", switchVisibleImg, false);
 
-                        function switchVisibleImg() {
-                            if (document.getElementById('showImgActivities') !== undefined) {
-
-                                if (document.getElementById('showImgActivities').style.display === 'block') {
-                                    document.getElementById('showImgActivities').style.display = 'none';
-                                    document.getElementById('hideImgActivities').style.display = 'block';
-                                } else {
-                                    document.getElementById('showImgActivities').style.display = 'block';
-                                    document.getElementById('hideImgActivities').style.display = 'none';
-                                }
-                            }
-                        }
                     </script>
                 </div>
             </div>
