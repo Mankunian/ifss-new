@@ -37,13 +37,13 @@
 
 		.alanyaImg{
 			background-image: url("img/new/alanya.jpg");
-			min-height: 500px;
+			min-height: 520px;
 			background-size: cover !important;
 			background-position: 50% 50% !important;
 		}
 		.istanbulImg{
 			background-image: url("img/new/istanbul.jpg");
-			min-height: 500px;
+			min-height: 520px;
 			background-size: cover !important;
 			background-position: 50% 50% !important;
 		}
@@ -60,7 +60,7 @@
 
 		.footer{
 			background: #262626;
-			height: 150px;
+			height: 105px;
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -80,7 +80,7 @@
             .info{
                 background: #2B4F71;
                 position: absolute;
-                bottom: 77px;
+                bottom: 35px;
                 color: #fff;
                 font-size: large;
                 right: 231px;
@@ -89,14 +89,28 @@
 
         @media screen and (max-device-width: 1024px) {
             .info{
-                background: #2B4F71;
-                position: absolute;
-                bottom: 132px;
-                color: #fff;
-                font-size: large;
-                right: 105px;
+				background: #2B4F71;
+				position: absolute;
+				bottom: 113px;
+				color: #fff;
+				font-size: small;
+				right: 151px;
             }
         }
+
+		@media screen and (max-device-width: 1024px) {
+			.footer p {
+				font-size: 29px;
+				margin: 35px;
+			}
+		}
+
+		@media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+			.footer p {
+				font-size: 35px;
+				margin: 35px;
+			}
+		}
 
         #demo{
             margin-left: 10px;
@@ -145,10 +159,10 @@
 					  <img src="img/logo.png" style="width: 55px; margin-top: -12px">
 
 				  </a>
-					<h4 style="display: inline-block; padding-left: 10px; font-family: 'Libre Baskerville', serif"><b>International FizMat Summer School</b></h4>
+					<h4 style="display: inline-block; padding-left: 10px; font-family: Adobe"><b>International FizMat Summer School</b></h4>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
-                    <h4 style="text-align: right; font-family: 'Libre Baskerville', serif"><b>Deadline to apply</b><span id="demo" style="margin-left: 10px"></span></h4>
+                    <h4 style="text-align: right; font-family: Adobe"><b>Deadline to apply</b><span id="demo" style="margin-left: 10px"></span></h4>
                     <script>
                         // Set the date we're counting down to
                         var countDownDate = new Date("Apr 31, 2019 23:59:59").getTime();
@@ -204,7 +218,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="jumbotron">
-					<h1 id="jumbotron" class="small" style="float: right; color: #2b6aff">Istanbul, Turkey</h1>
+					<h1 id="jumbotron" class="small" style="float: right; color: #2b4f71">Istanbul, Turkey</h1>
 					<div class="centered-button">
                         <a href="senior.html">
                             <button type="button" class="btn btn-secondary btn-lg info">Welcome to IFSS Senior 2019 <br>
@@ -220,7 +234,7 @@
 	</div>
 
 	<div class="footer">
-		<p style="font-size: 35px; margin: 35px;">Give us a call on +7 (701) 662 72 17. Email us at info@ifss.kz</p>
+		<p>Give us a call on +7 (701) 662 72 17. Email us at info@ifss.kz</p>
 	</div>
 
 
