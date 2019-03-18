@@ -1,30 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" class=" js no-touch">
 <head>
-    <title>Home</title>
+    <title>IFSS-new</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/slick-team-slider.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/slick-team-slider.css"/>-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!--FONTS LIBRARY START -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-    <!--FONTS LIBRARY END -->
-
-
-
-
 
 
     <style>
+        li a.sliderList {
+            padding: 10px;
+        }
 
+        .footer {
+            height: max-content;
+            background-color: #262626;
+            color: #fff;
+        }
+
+        .banner-description {
+            text-align: center;
+            color: #fff;
+            margin-top: 25px;
+            font-family: Adobe;
+            font-size: 50px;
+        }
+
+        .banner-description1 {
+            text-align: center;
+            /*color: #fff;*/
+            margin-top: 25px;
+            font-family: Adobe;
+            font-size: 50px;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .partners {
+            width: 610px;
+            margin: 0 auto;
+        }
+
+        #kz {
+            height: 430px;
+            background-image: url(img/new/banner.png);
+            top: 0;
+            left: 0;
+            background-size: cover !important;
+            background-position: 50% 0 !important;
+            opacity: 1;
+        }
+
+        #vefa {
+            height: 430px;
+            background-image: url(img/new/banner.png);
+            top: 0;
+            left: 0;
+            background-size: cover !important;
+            background-position: 50% 0 !important;
+            opacity: 1;
+        }
     </style>
 
 </head>
@@ -65,16 +105,19 @@
                     <img src="img/logo.png" style="width: 55px; margin-top: -12px">
 
                 </a>
-                <h3 style="display: inline-block; padding-left: 10px; font-family: 'Adobe', serif"><b>IFSS Senior 2019</b></h3>
+                <h3 style="display: inline-block; padding-left: 10px; font-family: Adobe, serif"><b>IFSS Senior
+                    2019</b></h3>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <h3 style="text-align: right; font-family: 'Adobe', serif"><b>Deadline to apply</b><span id="demo" style="margin-left: 10px"></span></h3>
+                <h3 style="text-align: right; font-family: 'Adobe', serif"><b>Deadline to apply</b><span id="demo"
+                                                                                                         style="margin-left: 10px"></span>
+                </h3>
                 <script>
                     // Set the date we're counting down to
                     var countDownDate = new Date("Apr 31, 2019 23:59:59").getTime();
 
                     // Update the count down every 1 second
-                    var x = setInterval(function() {
+                    var x = setInterval(function () {
 
                         // Get todays date and time
                         var now = new Date().getTime();
@@ -112,12 +155,19 @@
                 <h1 id="jumbotron" class="small">Istanbul, Turkey <br>June 16 – July 6, 2019
                 </h1>
                 <div class="centered-button">
-                    <button type="button" class="btn btn-secondary btn-lg info">LEARN MORE ABOUT IFSS 2018</button>
-                    <button type="button" class="btn btn-danger btn-lg apply"> APPLY NOW</button>
+                    <button type="button" data-toggle="modal" data-target="#exampleModal"
+                            class="btn btn-secondary btn-lg info"><i class="fa fa-play"></i> LEARN MORE ABOUT
+                        IFSS 2018
+                    </button>
+                    <!--<button title="Video" data-toggle="modal" data-target="#exampleModal" style="font-family: 'Poiret One', cursive; font-weight: 600" class="btn-warning btn-lg"><i class="fa fa-play"></i> Introduction video 90 seconds </button>-->
+
+                    <a target="_blank"
+                       href="https://docs.google.com/a/fizmat.kz/forms/d/12tJDlYFGEC_wJeSUxGujFoRiKz2HFCECuLtj9tZnf3g/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg" style="position: absolute; bottom: 20px"> APPLY
+                        NOW</a>
 
                 </div>
             </div>
-
 
 
         </div>
@@ -125,9 +175,182 @@
 </div>
 
 
-<section>
+<div class="col-sm-12" id="kz">
+    <div class="text">
+        <h4 class="banner-description">Istanbul, Turkey</h4><br>
+        <a href="about-kz.html" style="text-decoration:	white">
+            <h3 style="color:#e9e9e9; font-size: 37px; font-family: Adobe; padding: 30px 20px">Istanbul, a
+                fascinating city built on two Continents, divided by the Bosphorus Strait. This is one of the
+                greatest cities in the world where you can see a modern western city combined with a traditional
+                eastern city, it's a melting pot of many civilizations and different people.</h3>
+        </a>
+        <!--<button title="Video" data-toggle="modal" data-target="#exampleModal" style="font-family: 'Poiret One', cursive; font-weight: 600" class="btn-warning btn-lg"><i class="fa fa-play"></i> Introduction video 90 seconds </button>-->
 
-</section>
+    </div>
+</div>
+
+
+<div class="col-sm-12" style="height: 490px; background: #ece9e9">
+    <div class="text">
+        <h4 class="banner-description1">Exclusive Summer School Program</h4><br>
+
+        <h3 style="font-size: 37px; font-family: Adobe; padding: 30px 20px">We have developed our summer school
+            so that our students have an opportunity to take exceptional academic courses, combined with a wide
+            range of self-development activities. We strive for high-quality program and have selected a strong
+            team consisting of The Princeton Review Certified Trainers, students and alumni of top Kazakhstan
+            and U.S. schools, such as Nazarbayev University, Eurasian National University, Arizona State
+            University, Duke, MIT, Williams College, Pennsylvania State University and University of
+            Wisconsin-Madison.
+        </h3>
+
+    </div>
+
+</div>
+
+<div class="col-sm-12 centered-button" style="padding: 10px;">
+    <a target="_blank"
+       href="https://docs.google.com/a/fizmat.kz/forms/d/12tJDlYFGEC_wJeSUxGujFoRiKz2HFCECuLtj9tZnf3g/edit?usp=drive_web"
+       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+</div>
+
+
+<div class="col-sm-12" style="height: 390px">
+    <div class="text">
+        <h4 class="banner-description1">Accommodation</h4><br>
+
+        <h3 style="font-size: 37px; font-family: Adobe; padding: 30px 20px">Accommodation for Summer School participants
+            is provided by Vefa High School. All participants are assigned to state-of-the-art quadruple (4 students)
+            rooms with free wifi. All rooms are equipped with furniture and closet space. Also available: several
+            canteens, 24-hour medical support, study rooms, mini markets, and vending machines.
+        </h3>
+
+    </div>
+</div>
+
+
+<div class="col-sm-12" id="vefa">
+    <div class="text">
+        <h4 class="banner-description">Vefa High School</h4><br>
+        <a href="about-kz.html" style="text-decoration:	white">
+            <h3 style="color:#e9e9e9; font-size: 37px; font-family: Adobe; padding: 30px 20px">Vefa Anatolian High
+                School is one of the oldest and internationally renowned high school of Turkey.It was the first
+                non-military school. Campus is located in the heart of the Istanbul just in 5 minutes walk from famous
+                Mosque Suleymanie Camii.
+            </h3>
+        </a>
+    </div>
+</div>
+
+
+<div class="col-sm-12 centered-button" style="padding: 10px">
+    <a target="_blank"
+       href="https://docs.google.com/a/fizmat.kz/forms/d/12tJDlYFGEC_wJeSUxGujFoRiKz2HFCECuLtj9tZnf3g/edit?usp=drive_web"
+       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+</div>
+
+
+<div id="accomodation1" class="section-padding">
+    <div class="container">
+        <div class="row">
+
+            <!--Academics options-->
+            <div class="col-md-12">
+                <div class="team-info">
+                    <div class="img-sec">
+                        <img id="hideImg" src="img/0.jpg" class="img-responsive">
+
+                        <!--<div id="showImg" style="display: none">
+                            <img src="img/0.jpg" alt="" class="img-responsive" style="margin: 0 auto; width: 80%">
+                            <h2>Game Development</h2>
+                            <h4 style="padding: 10px">Immerse into cyber world and make your own old fashioned arcade
+                                machine using Python and Raspberry Pi platform.</h4>
+                        </div>-->
+
+                        <!--<div id="spaceInfo" style="display: none">
+                            <img src="img/0.jpg" alt="" class="img-responsive" style="margin: 0 auto; width: 80%">
+                            <h2>Space Engineering</h2>
+                            <h4 style="padding: 10px">Acquire exceptional skills in three weeks to
+                                explore stars and launch your own rocket
+                                into space.</h4>
+                        </div>-->
+                    </div>
+                    <div id="div1" class="fig-caption" style="font-family: Adobe">
+                        <h1 style="text-align: center;">Academics</h1>
+                        <p style="font-size: 22px; margin: 5%;" class="cta-sub-title">Core classes will be held in
+                            mornings in small cohorts. The duration of the classes is 3 hours. Groups are kept small in
+                            order to guarantee high-quality service and personal approach to every student. Students
+                            choose one course from the following options:</p>
+                        <a class="btn btn-primary" id="Button1" style="margin-left: 35%"><b>Academic options</b></a>
+                    </div>
+
+                    <div id="div2">
+                        <div class="col-md-6">
+                            <h1 style="text-transform: uppercase; font-family: Adobe;" class="advanced-chunk-title">
+                                Academics</h1>
+                            <ul style="margin-bottom: 20px;">
+                                <li style="text-align: left; list-style: none;">
+                                    <h4><a id="space">Space Engineering</a></h4>
+                                    <h4><a id="game">Game Development</a></h4>
+                                    <h4><a id="creative">Creative Writing</a></h4>
+                                    <h4><a id="sat">SAT Reasoning</a></h4>
+                                    <h4><a id="ielts">IELTS</a></h4>
+                                    <h4><a id="esl">ESL</a></h4>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <a style="margin: 80px" id="back"><<< back</a>
+                    </div>
+                    <script>
+                        document.getElementById("Button1").addEventListener("click", switchVisible, false);
+
+                        function switchVisible() {
+                            if (document.getElementById('div1') !== undefined) {
+
+                                if (document.getElementById('div1').style.display === 'block') {
+                                    document.getElementById('div1').style.display = 'none';
+                                    document.getElementById('div2').style.display = 'block';
+                                } else {
+                                    document.getElementById('div1').style.display = 'block';
+                                    document.getElementById('div2').style.display = 'none';
+                                }
+                            }
+                        }
+
+                        document.getElementById("back").addEventListener("click", switchVisibleSec, false);
+
+                        function switchVisibleSec() {
+                            if (document.getElementById('div2') !== undefined) {
+
+                                if (document.getElementById('div2').style.display === 'block') {
+                                    document.getElementById('div2').style.display = 'none';
+                                    document.getElementById('div1').style.display = 'block';
+                                } else {
+                                    document.getElementById('div2').style.display = 'block';
+                                    document.getElementById('div1').style.display = 'none';
+                                }
+                            }
+                        }
+
+                        document.getElementById("back").addEventListener("click", hideImg, false);
+
+                        function hideImg() {
+                            if (document.getElementById('showImg') !== undefined) {
+
+                                if (document.getElementById('showImg').style.display === 'block') {
+                                    document.getElementById('showImg').style.display = 'none';
+                                    document.getElementById('hideImg').style.display = 'block';
+                                } else {
+                                    document.getElementById('showImg').style.display = 'block';
+                                    document.getElementById('hideImg').style.display = 'none';
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+            <!--Academics options-->
 
 
 
@@ -135,17 +358,355 @@
 
 
 
+            <!--Electives options-->
+            <div class="col-md-12">
+                <div class="team-info">
+                    <div id="div3" class="fig-caption" style="font-family: 'Libre Baskerville', serif;">
+                        <h1 style="text-align: center;">Electives</h1>
+                        <p style="font-size: 22px; margin: 5%;" class="cta-sub-title">Afternoons are designed so that
+                            students can broaden their experience and knowledge in chosen fields. The program offers one
+                            fun-filled and action-packed elective. These elective courses allow students to discover and
+                            enhance their skills and expertise.</p>
+                        <a class="btn btn-primary" id="electives" style="margin-left: 35%"><b>Electives options</b></a>
+                    </div>
+                    <div id="div4">
+                        <div class="col-md-6">
+                            <h1 style="text-transform: uppercase; font-family: Adobe;" class="advanced-chunk-title">
+                                Electives</h1>
+                            <ul style="margin-bottom: 20px;">
+                                <li style="text-align: left; list-style: none;">
+                                    <h4><a id="equestrian">Equestrian </a></h4>
+                                    <h4><a id="archery">Archery</a></h4>
+                                    <h4><a id="theatre">Theatre</a></h4>
+                                    <h4><a id="public">Public Speaking</a></h4>
+                                    <h4><a id="tennis">Tennis</a></h4>
+                                </li>
+                            </ul>
+
+                            <a style="margin: 80px" id="backElectives"><<< back</a>
+                        </div>
+
+                    </div>
+                    <div class="img-sec">
+                        <img id="hideImgElective" src="img/02.jpg" class="img-responsive">
+                        <!--<div id="showImgElective" style="display: none">
+                            <img src="img/02.jpg" alt="" class="img-responsive" style="width: 80%; margin: 0 auto">
+                            <h2>Tennis</h2>
+                            <h4 style="padding: 10px">Professional coaches work with our summer students to teach them
+                                new skills, achieve their personal goals and develop a love of the game.</h4>
+                        </div>-->
+                    </div>
+
+                    <script>
+                        document.getElementById("electives").addEventListener("click", switchVisible, false);
+
+                        function switchVisible() {
+                            if (document.getElementById('div3') !== undefined) {
+
+                                if (document.getElementById('div3').style.display === 'block') {
+                                    document.getElementById('div3').style.display = 'none';
+                                    document.getElementById('div4').style.display = 'block';
+                                } else {
+                                    document.getElementById('div3').style.display = 'block';
+                                    document.getElementById('div4').style.display = 'none';
+                                }
+                            }
+                        }
+
+                        document.getElementById("backElectives").addEventListener("click", switchVisibleSec, false);
+
+                        function switchVisibleSec() {
+                            if (document.getElementById('div4') !== undefined) {
+
+                                if (document.getElementById('div4').style.display === 'block') {
+                                    document.getElementById('div4').style.display = 'none';
+                                    document.getElementById('div3').style.display = 'block';
+                                } else {
+                                    document.getElementById('div4').style.display = 'block';
+                                    document.getElementById('div3').style.display = 'none';
+                                }
+                            }
+                        }
+
+                        document.getElementById("backElectives").addEventListener("click", hideImg, false);
+
+                        function hideImg() {
+                            if (document.getElementById('showImgElective') !== undefined) {
+
+                                if (document.getElementById('showImgElective').style.display === 'block') {
+                                    document.getElementById('showImgElective').style.display = 'none';
+                                    document.getElementById('hideImgElective').style.display = 'block';
+                                } else {
+                                    document.getElementById('showImgElective').style.display = 'block';
+                                    document.getElementById('hideImgElective').style.display = 'none';
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+            <!--Electives options-->
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!--Activities options-->
+            <div class="col-md-12">
+                <div class="team-info">
+                    <div class="img-sec">
+                        <img id="hideImgActivities" src="img/01.jpg" class="img-responsive">
+                        <!--<div id="showImgActivities" style="display: none;">
+                            <img src="img/01.jpg" alt="z" class="img-responsive" style="width: 80%; margin: 0 auto">
+                            <h2>Additional Activities</h2>
+                            <h4 style="padding: 10px;">Throughout summer school, students are offered many opportunities
+                                to take part in a variety of outdoor pursuits and activities, scheduled at weekends and
+                                during timetabled activity periods</h4>
+                        </div>-->
+                    </div>
+                    <div id="div5" class="fig-caption" style="font-family: 'Libre Baskerville', serif;">
+                        <h1 style="text-align: center;">Activities</h1>
+                        <p style="font-size: 22px; margin: 5%;" class="cta-sub-title">We always remember that our
+                            students are on their holidays and we do our best to provide a memorable summer adventure.
+                            During their three weeks, we will immerse our students in Kazakhstan’s rich and unique
+                            culture and introduce them to some of its most famous attractions, traditions and
+                            cities.</p>
+                        <a id="button3" class="btn btn-primary" style="margin-left: 35%;"><b>Activities options</b></a>
+                    </div>
+                    <div id="div6" style="display: none;">
+                        <div class="col-md-6">
+                            <h1 style="text-transform: uppercase; font-family: Adobe;" class="advanced-chunk-title">
+                                Activities</h1>
+                            <ul style="margin-bottom: 20px;">
+                                <li style="text-align: left; list-style: none;">
+                                    <h4><a id="trip">Day Trips</a></h4>
+                                    <h4><a id="enter">Evening Entertainment</a></h4>
+                                    <h4><a id="tour">Bosphorus tours</a></h4>
+                                    <h4><a id="add">Additional Activities</a></h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <a style="margin: 80px" id="backActivities"><<< back</a>
+                    </div>
+
+                    <script>
+                        document.getElementById("button3").addEventListener("click", switchVisible, false);
+
+                        function switchVisible() {
+                            if (document.getElementById('div5') !== undefined) {
+
+                                if (document.getElementById('div5').style.display === 'block') {
+                                    document.getElementById('div5').style.display = 'none';
+                                    document.getElementById('div6').style.display = 'block';
+                                } else {
+                                    document.getElementById('div5').style.display = 'block';
+                                    document.getElementById('div6').style.display = 'none';
+                                }
+                            }
+                        }
+
+
+
+
+                        document.getElementById("backActivities").addEventListener("click", switchVisibleSec, false);
+
+                        function switchVisibleSec() {
+                            if (document.getElementById('div6') !== undefined) {
+
+                                if (document.getElementById('div6').style.display === 'block') {
+                                    document.getElementById('div6').style.display = 'none';
+                                    document.getElementById('div5').style.display = 'block';
+                                } else {
+                                    document.getElementById('div6').style.display = 'block';
+                                    document.getElementById('div5').style.display = 'none';
+                                }
+                            }
+                        }
+
+
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!--Activities options-->
+
+    </div>
+</div>
+
+
+</div>
+
+
+<div class="col-sm-12 centered-button">
+    <a target="_blank"
+       href="https://docs.google.com/a/fizmat.kz/forms/d/12tJDlYFGEC_wJeSUxGujFoRiKz2HFCECuLtj9tZnf3g/edit?usp=drive_web"
+       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+</div>
+<br>
+<br>
+<h1 style="font-family: Adobe; text-align: center ">Our Partners</h1>
+<div class="col-md-12">
+    <div class="partners">
+        <a target="_blank" href="http://endowmentfund.fizmat.kz/"><img src="img/rfmsh.jpg"
+                                                                       style="margin-top: 35px; width: 200px"></a>
+        <a target="_blank" href=""><img src="img/new/vefa.jpg" style="margin-top: 50px; width: 200px"></a>
+        <a target="_blank" href=""><img src="img/new/sella.jpg" style="margin-top: 30px; width: 200px"></a>
+    </div>
+</div>
+
+
+<div class="col-md-12">
+    <h4 class="banner-description1">Frequently Asked Questions</h4><br>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+        <div class="item active">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Dates and Cost</h2>
+                <br>
+                <h3>This year’s program is scheduled from June 16 to July 6, 2018. Cost of the summer school is
+                    2,300
+                    USD. It covers: tuition, accommodation, meals, course materials and equipment; trips and
+                    excursions;
+                    evening activities and cultural events; airport transfers from and to Istanbul International
+                    Airport
+                    (IST), Istanbul, Turkey. There is an enrollment fee of 50% of the cost. Please note that your
+                    place
+                    at IFSS will not be confirmed until the enrolment fee has been received.
+                </h3></div>
+        </div><!-- End Item -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Travel Arrangements</h2>
+                <br>
+                <h3>Parents of international students (non-Kazakhstan citizens) are responsible for travel and
+                    insurance
+                    arrangements to Istanbul, Turkey. All students will be met by a member of IFSS staff at Istanbul
+                    International Airport and accompanied to the campus of the Summer School.</h3>
+            </div>
+        </div><!-- End Item -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Accommodation and Meals</h2>
+                <br>
+                <h3>Students will live on VEFA High School campus. All rooms have beds, desks and closet space.
+                    Residential equipment, medical office, study rooms, laundry facilities, mini markets, vending
+                    machines, and canteens are available in the residential halls. Meals are served at school
+                    cafeteria
+                    3 times per day.</h3>
+            </div>
+        </div><!-- End Item -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Application, Deadlines, and Financial Aid
+                </h2>
+                <br>
+                <h3>All students aged 13-18 years old and returning to school are eligible to apply. Application
+                    deadline for IFSS 2019 Senior Program is April 30, 2019. All applicants are automatically
+                    considered
+                    for merit-based financial aid.</h3>
+            </div>
+        </div><!-- End Item -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Do I need a visa?</h2>
+                <br>
+                <h3>Turkey is visa free for citizens of more than 70 countries and e-visas available for more than
+                    40
+                    countries, who are planning to visit Turkey for different periods of time. For more details
+                    please
+                    email us at info@ifss.kz.</h3>
+            </div>
+        </div><!-- End Item -->
+        <div class="item">
+            <img src="img/new/banner.png" style="width: 100%">
+            <div class="carousel-caption">
+                <h2>Any questions?</h2>
+                <br>
+                <h3>Our admissions office will be happy to help with any queries or issues that you may have
+                    regarding
+                    the application process.</h3>
+            </div>
+        </div><!-- End Item -->
+
+    </div><!-- End Carousel Inner -->
+
+
+    <ul class="nav nav-pills nav-justified">
+        <li data-target="#myCarousel" data-slide-to="0" class="active slider">
+            <a class="sliderList" href="#">Dates and Cost
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+
+        <li class="slider" data-target="#myCarousel" data-slide-to="1">
+            <a class="sliderList" href="#">Travel Arrangements
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="2">
+            <a class="sliderList" href="#">Accommodation and Meals
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="3">
+            <a class="sliderList" href="#">Application, Deadlines, and Financial Aid
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="4">
+            <a class="sliderList" href="#">Do I need a visa?
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="5">
+            <a class="sliderList" href="#">Any questions?
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+    </ul>
+
+
+</div><!-- End Carousel -->
+<br>
+<div class="col-sm-12 centered-button">
+    <a target="_blank"
+       href="https://docs.google.com/a/fizmat.kz/forms/d/12tJDlYFGEC_wJeSUxGujFoRiKz2HFCECuLtj9tZnf3g/edit?usp=drive_web"
+       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+</div>
+
+<div class="col-md-12" style="padding: 0;">
+    <div class="footer">
+        <h2>Give us a call on +7 (701) 662 72 17. Email us at info@ifss.kz</h2>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-size: 35px; font-family: 'Poiret One', cursive; ">Introduction video</h5>
+                <h5 class="modal-title" id="exampleModalLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Introduction
+                    video</h5>
 
             </div>
             <div class="modal-body">
-                <iframe width="865" height="500" src="https://www.youtube.com/embed/v48orMA8Yfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                <iframe width="865" height="500" src="https://www.youtube.com/embed/43KC6ACL6Tk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
@@ -162,9 +723,33 @@
 
 </body>
 </html>
-
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
+        $('#myCarousel').carousel({
+            interval: 10000
+        });
+
+        var clickEvent = false;
+        $('#myCarousel').on('click', '.nav a', function () {
+            clickEvent = true;
+            $('.nav li').removeClass('active');
+            $(this).parent().addClass('active');
+        }).on('slid.bs.carousel', function (e) {
+            if (!clickEvent) {
+                var count = $('.nav').children().length - 1;
+                var current = $('.nav li.active');
+                current.removeClass('active').next().addClass('active');
+                var id = parseInt(current.data('slide-to'));
+                if (count == id) {
+                    $('.nav li').first().addClass('active');
+                }
+            }
+            clickEvent = false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
         $('.customer-logos').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
