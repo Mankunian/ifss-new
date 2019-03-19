@@ -907,3 +907,158 @@ h2{
     display: none;
 }
 
+/*Any Device designd*/
+
+#jumbotron {
+
+
+    margin-left: 15px;
+    padding: 20px 5px 15px 35px;
+    font-size: 33px;
+    font-weight: 600;
+
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px){
+    .alanyaImg{
+        background-image: url("../img/new/alanya.jpg");
+        height: 757px;
+        background-size: cover !important;
+        margin-top: 75px;
+        background-position: 50% 50% !important;
+    }
+    .istanbulImg{
+        background-image: url("../img/new/istanbul.jpg");
+        height: 757px;
+        margin-top: 75px;
+        background-size: cover !important;
+        background-position: 50% 50% !important;
+    }
+}
+
+
+
+
+@media screen and (min-device-width: 1440px) {
+    .alanyaImg{
+        background-image: url("../img/new/alanya.jpg");
+        height: 757px;
+        background-size: cover !important;
+        margin-top: 37px;
+        background-position: 50% 50% !important;
+    }
+    .istanbulImg{
+        background-image: url("../img/new/istanbul.jpg");
+        height: 757px;
+        margin-top: 37px;
+        background-size: cover !important;
+        background-position: 50% 50% !important;
+    }
+}
+
+@media screen and (min-device-width: 1440px) {
+    .alanyaImg{
+        background-image: url("../img/new/alanya.jpg");
+        height: 757px;
+        background-size: cover !important;
+        margin-top: 37px;
+        background-position: 50% 50% !important;
+    }
+    .istanbulImg{
+        background-image: url("../img/new/istanbul.jpg");
+        height: 757px;
+        margin-top: 37px;
+        background-size: cover !important;
+        background-position: 50% 50% !important;
+    }
+}
+
+
+
+.alanyaImg{
+    background-image: url("../img/new/alanya.jpg");
+    height: 757px;
+    background-size: cover !important;
+    /*margin-top: 75px;*/
+    background-position: 50% 50% !important;
+}
+.istanbulImg{
+    background-image: url("../img/new/istanbul.jpg");
+    height: 757px;
+    /*margin-top: 75px;*/
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+.info{
+    background: #2B4F71;
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    font-size: x-large;
+}
+.centered-button{
+    text-align: center;
+}
+
+
+
+.footer{
+    background: #262626;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+
+
+@media screen and (max-device-width: 1024px) {
+    .footer p {
+        font-size: 17px;
+        margin: 4px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .footer p {
+        font-size: 23px;
+        margin: 13px;
+
+    }
+}
+
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    .footer p {
+        font-size: 27px;
+        margin: 10px;
+    }
+}
+
+#demo{
+    margin-left: 10px;
+    background: blueviolet;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    #jumbotron1 {
+        padding: 50px 5px 15px 35px;
+        font-size: 33px;
+        font-weight: 600;
+        text-align: right;
+        float: left;
+        color: #fff;
+    }
+}
