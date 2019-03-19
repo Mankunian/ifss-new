@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html lang="en" class=" js no-touch">
 <head>
-  <title>Home</title>
+  <title>IFSS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,42 +23,108 @@
 	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 
 	<style>
-		@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
-			.info {
+		#jumbotron {
+
+			font-family: Adobe;
+			margin-left: 15px;
+			padding: 20px 5px 15px 35px;
+			font-size: 34px;
+			font-weight: 600;
+			/*text-transform: lowercase;*/
+
+		}
+
+
+
+		.alanyaImg{
+			background-image: url("img/new/alanya.jpg");
+			min-height: 520px;
+			margin-top: 50px;
+			background-size: cover !important;
+			background-position: 50% 50% !important;
+		}
+		.istanbulImg{
+			background-image: url("img/new/istanbul.jpg");
+			min-height: 520px;
+			margin-top: 50px;
+			background-size: cover !important;
+			background-position: 50% 50% !important;
+		}
+		.info{
+			background: #2B4F71;
+			position: absolute;
+			bottom: 40px;
+			color: #fff;
+			font-size: x-large;
+		}
+		.centered-button{
+			text-align: center;
+		}
+
+		.footer{
+			background: #262626;
+			height: 55px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: #262626;
+			color: white;
+			text-align: center;
+			font-size: 21px;
+		}
+
+        @media screen and (max-device-width: 1440px) {
+            .info{
+				background: #2B4F71;
+				position: absolute;
+				bottom: 35px;
+				width: 350px;
+				color: #fff;
+				font-size: 18px;
+				font-family: Adobe;
+				right: 170px;
+            }
+        }
+
+        @media screen and (max-device-width: 1024px) {
+            .info{
 				background: #2B4F71;
 				position: absolute;
 				bottom: 113px;
 				color: #fff;
 				font-size: small;
-				right: 20%;
+				right: 151px;
+            }
+        }
+
+		@media screen and (max-device-width: 1024px) {
+			.footer p {
+				font-size: 29px;
+				margin: 35px;
 			}
 		}
 
-		@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
-			.info {
-				background: #2B4F71;
-				position: absolute;
-				bottom: 113px;
-				color: #fff;
-				font-size: small;
-				right: 37%;
+		@media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+			.footer p {
+				font-size: 21px;
+				margin: 15px;
+				font-family: Adobe;
 			}
 		}
 
-		@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px){
-			.info {
-				background: #2B4F71;
-				position: absolute;
-				bottom: 113px;
-				color: #fff;
-				font-size: small;
-				right: 30%;
-			}
-		}
-
-
-
-
+        #demo{
+            margin-left: 10px;
+            background: #2b4f71;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
     </style>
 
 </head>
@@ -96,13 +162,13 @@
 				  </button>
 				  <!--<a href="index.html"> <img src="img/header_logo.png" width="150px"></a>-->
 				  <a href="index.html" style="text-decoration: none">
-					  <img src="img/logo.png" style="width: 55px;">
+					  <img src="img/logo.png" style="width: 55px; margin-top: -12px">
 
 				  </a>
-					<h4 class="hidden-xs" style="display: inline-block; padding-left: 10px; font-family: Adobe"><b>International FizMat Summer School</b></h4>
+					<h4 style="display: inline-block; padding-left: 10px; font-family: Adobe; font-size: 21px"><b>International FizMat Summer School</b></h4>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
-                    <h4 style="text-align: right; font-family: Adobe; padding: 5px"><b>Deadline to apply</b><span id="demo" style="margin-left: 10px"></span></h4>
+                    <h4 style="text-align: right; font-family: Adobe; font-size: 21px"><b>Deadline to apply</b><span id="demo" style="margin-left: 10px"></span></h4>
                     <script>
                         // Set the date we're counting down to
                         var countDownDate = new Date("Apr 31, 2019 23:59:59").getTime();
@@ -139,44 +205,7 @@
 		</nav>
 	</div>
 
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="row">
-					<div class="alanyaImg">
-						<div class="jumbotron">
-							<h1 id="jumbotron1" class="small">Alanya, Turkey</h1>
-							<div class="centered-button">
-								<button type="button" class="btn btn-secondary btn-lg info">Welcome to IFSS Junior 2019 <br>
-									(9-12 years old)
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="row">
-					<div class="istanbulImg">
-						<div class="jumbotron">
-							<h1 id="jumbotron" class="small" style="float: right; color: #2b4f71">Istanbul, Turkey</h1>
-							<div class="centered-button">
-								<a href="senior.html">
-									<button type="button" class="btn btn-secondary btn-lg info">Welcome to IFSS Senior 2019 <br>
-										(13-18 years old)
-									</button>
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--<div class=" alanyaImg col-md-6">
+	<div class=" alanyaImg col-md-6">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="jumbotron">
@@ -191,8 +220,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<div class=" istanbulImg col-md-6">
 		<div class="container-fluid">
 			<div class="row">
@@ -210,7 +237,7 @@
 
 			</div>
 		</div>
-	</div>-->
+	</div>
 
 	<div class="footer">
 		<p>Give us a call on +7 (701) 662 72 17. Email us at info@ifss.kz</p>
