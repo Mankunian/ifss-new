@@ -695,7 +695,6 @@ form element
 }
 
 
-
 /* Slider */
 
 .slick-slide {
@@ -877,7 +876,6 @@ form element
 }
 
 
-
 #demo {
     margin-left: 10px;
     background: #2b4f71;
@@ -925,10 +923,18 @@ form element
 }
 
 
-
-
 /*Senior Page*/
+#back {
+    cursor: pointer;
+}
 
+#backElectives {
+    cursor: pointer;
+}
+
+#backActivities {
+    cursor: pointer;
+}
 
 .academics-list p {
     cursor: pointer;
@@ -1113,17 +1119,17 @@ form element
     width: 100%;
 }
 
-.partners-background{
+.partners-background {
     background: #ece9e9;
 }
 
-.faqTitle{
+.faqTitle {
     font-size: 55px;
     text-align: center;
     font-family: Adobe;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-size: 21px;
     font-family: Adobe;
 }
@@ -1135,7 +1141,7 @@ h2 {
     font-family: Adobe;
 }
 
-.footer p{
+.footer p {
     font-size: 21px;
     text-align: center;
     padding: 12px;
@@ -1164,7 +1170,7 @@ h2 {
 }
 
 
-#alanyaSection{
+#alanyaSection {
     background-image: url("../img/new/alanyaBackground.jpg");
     min-height: 325px;
     background-size: cover !important;
@@ -1175,11 +1181,11 @@ h2 {
 
 /*Modal options*/
 
-.modal-body p{
+.modal-body p {
     font-family: Adobe;
     font-size: 21px;
 }
 
-.modal-body h2{
+.modal-body h2 {
     font-family: Adobe;
 }
