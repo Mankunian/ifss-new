@@ -935,6 +935,8 @@ form element
 #myCarousel .nav a {
     border-radius: 0;
     height: 60px;
+    font-family: Adobe;
+    font-size: 17px;
 }
 
 
@@ -984,6 +986,7 @@ form element
         bottom: 95px;
         color: #fff;
         font-size: 21px;
+        font-family: Adobe;
     }
 }
 
@@ -1133,6 +1136,10 @@ form element
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.partners-background{
+    background: #ece9e9;
 }
 
 .faqTitle{
