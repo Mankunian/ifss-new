@@ -877,28 +877,6 @@ form element
 }
 
 
-/*@media screen and (max-device-width: 1440px) {
-    .info{
-        background: #2B4F71;
-        position: absolute;
-        bottom: 22px;
-        color: #fff;
-        font-size: large;
-        right: 211px;
-    }
-}
-
-@media screen and (max-device-width: 1024px) {
-    .info{
-        background: #2B4F71;
-        position: absolute;
-        bottom: 88px;
-        color: #fff;
-        font-size: large;
-        right: 105px;
-    }
-}*/
-
 
 #demo {
     margin-left: 10px;
@@ -1155,4 +1133,36 @@ h2 {
     text-align: center;
     padding: 12px;
     font-family: adobe;
+}
+
+
+/*Junior page*/
+
+#jumbotronAlanya {
+    float: left;
+    padding: 45px 5px 15px 35px;
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    font-family: Adobe;
+
+}
+
+.juniorImg {
+    background-image: url("../img/new/alanya.jpg");
+    min-height: 650px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+
+
+#alanyaSection{
+    background-image: url("../img/new/alanyaBackground.jpg");
+    min-height: 520px;
+    /*margin-top: 50px;*/
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }

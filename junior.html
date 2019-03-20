@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class=" js no-touch">
+<head>
+    <title>IFSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/slick-team-slider.css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <style>
+        li a.sliderList {
+            padding: 10px;
+        }
+
+        .footer {
+            height: max-content;
+            background-color: #262626;
+            color: #fff;
+        }
+
+
+        .text {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="main-navigation navbar-fixed-top">
+    <nav class="navbar navbar-default" style="padding-bottom: 7px">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a href="index.html"> <img src="img/header_logo.png" width="150px"></a>-->
+                <a href="index.html" style="text-decoration: none">
+                    <img src="img/logo.png" style="width: 55px; margin-top: -12px">
+
+                </a>
+                <h3 class="headerLeft"><b>IFSS
+                    Junior
+                    2019</b></h3>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <h3 class="headerRight"><b>Deadline to apply</b>
+                    <span id="demo"></span>
+                </h3>
+                <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Apr 31, 2019 23:59:59").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function () {
+
+                        // Get todays date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Output the result in an element with id="demo"
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                        // If the count down is over, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                    }, 1000);
+                </script>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class=" juniorImg col-md-12">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="jumbotron">
+                <h1 id="jumbotronAlanya" class="small">Alanya, Turkey <br><span
+                        style="font-size: 34px">15-28 June, 2019</span></h1>
+
+                <div class="centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1mill9vFPGUA5YaSBCYpRzZKEJdshvULUpkL5eItQFPU/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg"
+                       style="position: absolute; bottom: 35px;font-family: Adobe;font-size: 21px; background: #CA141B ">
+                        APPLY NOW
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="col-sm-12" id="alanyaSection">
+    <div class="text">
+        <h4 class="istanbulTitle">Alanya, Turkey</h4><br>
+
+        <h3 class="istanbulContent">Alanya is a holiday resort located on the south coasts of Turkey with its popular
+            and still-breathing ancient
+            history. The city’s unique, natural and blue flagged beaches lie along the south shores.</h3>
+
+
+    </div>
+</div>
+
+
+<div class="col-sm-12 exclusive-section">
+    <div class="text">
+        <h4 class="exclusive-section-title">Exclusive Summer School Program</h4><br>
+
+        <h3 class="exclusive-content">National School of Physics and Math invites students of grades 3-6 to take part in
+            the IFSS Junior “EnglishUP” Summer School on the Mediterranean coast. The unique program includes intensive
+            English language classes with a native speaker, vocabulary enrichment, art classes, and entertaining math
+            courses.
+        </h3>
+
+    </div>
+
+    <div class="col-sm-12 centered-button">
+        <a target="_blank"
+           href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+           type="button" class="btn btn-danger btn-lg applyBtn"> APPLY NOW</a>
+    </div>
+
+</div>
+
+
+<div class="col-sm-12 accommodation-section">
+    <div class="text">
+        <p class="accommodation-title">Accommodation</p>
+        <br>
+
+        <p class="accommodation-content">Accommodation for Summer School participants is provided by 4-star Enki Hotel.
+            All participants are assigned to state-of-the-art triple (3 students) rooms with free wifi. All rooms are
+            equipped with furniture and closet space. Also available: several cafes, swimming pool, 24-hour medical
+            support, mini markets, and vending machines. Hotel is just 300 m away from the beach.
+        </p>
+
+    </div>
+</div>
+
+
+<div class="col-sm-12" id="vefa-section">
+    <div class="text">
+        <p class="vefa-title">Cultural Experience and Activities</p><br>
+        <p class="vefa-content">We always remember that the health of children is very important and included in the
+            program a daily two-hour exercise in the fresh air. Students have the opportunity to look through the
+            centuries-old history of Alanya and learn about Turkish culture and traditions.
+        </p>
+
+    </div>
+
+    <div class="col-sm-12 centered-button">
+        <a target="_blank"
+           href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+           type="button" class="btn btn-danger btn-lg applyBtn"> APPLY NOW</a>
+    </div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+        <div class="col-md-12">
+            <h4 class="faqTitle">Frequently Asked Questions</h4><br>
+        </div>
+
+        <div class="item active">
+            <img src="img/new/banner.png" style="height: 376px; width: 100%">
+            <div class="carousel-caption">
+                <h2>Dates and Cost</h2>
+                <br>
+                <p>This year’s program is scheduled from June 15 to June 28, 2019. Cost of the summer school is 684,000
+                    KZT. It covers: flight costs, tuition, accommodation, meals, course materials and equipment; trips
+                    and excursions; evening activities and cultural events; airport transfers from and to Antalya
+                    International Airport (AYT), Antalya, Turkey. There is an enrollment fee of 50% of the cost. Please
+                    note that your place at IFSS will not be confirmed until the enrolment fee has been received.
+                </p>
+
+                <div class="col-sm-12 centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg applyBtn"> APPLY NOW</a>
+                </div>
+            </div>
+        </div><!-- Date & Cost -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="height: 376px; width: 100%">
+            <div class="carousel-caption">
+                <h2>Accommodation and Meals</h2>
+                <br>
+                <p>Students will live in 4-star, alcohol-free Enki Hotel. All rooms have beds, desks and closet space.
+                    Swimming pool, medical office, laundry facilities, mini markets, vending machines, and cafes are
+                    available in the hotel. Meals are served at hotel restaurant 3 times per day. Hotel is 300 m away
+                    from the beach.
+                </p>
+                <div class="col-sm-12 centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+                </div>
+            </div>
+        </div><!-- Accommodation and Meals -->
+
+
+        <div class="item">
+            <img src="img/new/banner.png" style="height: 376px; width: 100%">
+            <div class="carousel-caption">
+                <h2>Application, Deadlines, and Financial Aid</h2>
+                <br>
+                <p>All students aged 9-12 years old and returning to school are eligible to apply. Application deadline
+                    for IFSS 2019 Junior EnglishUP Program is March 28, 2019. All applicants are automatically
+                    considered for merit-based financial aid.
+                </p>
+                <div class="col-sm-12 centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+                </div>
+            </div>
+        </div><!-- Application, Deadlines, and Financial Aid -->
+
+        <div class="item">
+            <img src="img/new/banner.png" style="height: 376px; width: 100%">
+            <div class="carousel-caption">
+                <h2>Do I need a visa?</h2>
+                <br>
+                <p>Turkey is visa free for citizens of more than 70 countries and e-visas available for more than 40
+                    countries, who are planning to visit Turkey for different periods of time. For more details please
+                    email us at info@ifss.kz.
+                </p>
+                <div class="col-sm-12 centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+                </div>
+            </div>
+        </div><!-- Do I need a visa? -->
+        <div class="item">
+            <img src="img/new/banner.png" style="height: 376px; width: 100%">
+            <div class="carousel-caption">
+                <h2>Any questions?</h2>
+                <br>
+                <p>Our admissions office will be happy to help with any queries or issues that you may have regarding the application process.
+                    .</p>
+                <div class="col-sm-12 centered-button">
+                    <a target="_blank"
+                       href="https://docs.google.com/forms/u/2/d/1CISw0uE2z8eDJ0g_7WuvDijKkUlX-uUNFnDPqiDAE7A/edit?usp=drive_web"
+                       type="button" class="btn btn-danger btn-lg"> APPLY NOW</a>
+                </div>
+            </div>
+
+
+        </div><!-- Any questions? -->
+
+
+    </div><!-- End Carousel Inner -->
+
+
+    <ul class="nav nav-pills nav-justified">
+        <li data-target="#myCarousel" data-slide-to="0" class="active slider">
+            <a class="sliderList" href="#">Dates and Cost
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="1">
+            <a class="sliderList" href="#">Accommodation and Meals
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="2">
+            <a class="sliderList" href="#">Application, Deadlines, and Financial Aid
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="3">
+            <a class="sliderList" href="#">Do I need a visa?
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+        <li class="slider" data-target="#myCarousel" data-slide-to="4">
+            <a class="sliderList" href="#">Any questions?
+                <small>Lorem ipsum dolor sit</small>
+            </a>
+        </li>
+    </ul>
+
+
+</div><!-- End Carousel -->
+
+
+<div class="col-md-12" style="padding: 0;">
+    <div class="footer">
+        <p>Give us a call on +7 (701) 662 72 17. Email us at info@ifss.kz</p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Introduction
+                    video</h5>
+
+            </div>
+            <div class="modal-body">
+                <iframe width="865" height="500" src="https://www.youtube.com/embed/43KC6ACL6Tk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('#myCarousel').carousel({
+            interval: 100000
+        });
+
+        var clickEvent = false;
+        $('#myCarousel').on('click', '.nav a', function () {
+            clickEvent = true;
+            $('.nav li').removeClass('active');
+            $(this).parent().addClass('active');
+        }).on('slid.bs.carousel', function (e) {
+            if (!clickEvent) {
+                var count = $('.nav').children().length - 1;
+                var current = $('.nav li.active');
+                current.removeClass('active').next().addClass('active');
+                var id = parseInt(current.data('slide-to'));
+                if (count == id) {
+                    $('.nav li').first().addClass('active');
+                }
+            }
+            clickEvent = false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
