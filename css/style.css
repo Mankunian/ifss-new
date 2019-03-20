@@ -1067,6 +1067,7 @@ form element
 .applyBtn {
     font-size: 21px;
     font-family: Adobe;
+    z-index: 10;
     background: #CA141B;
 }
 
