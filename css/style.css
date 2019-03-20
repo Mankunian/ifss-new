@@ -1031,6 +1031,7 @@ form element
 
 .vefa-title {
     font-size: 55px;
+    margin: 10px;
     font-family: Adobe;
     color: #fff;
 }
@@ -1161,9 +1162,19 @@ h2 {
 #alanyaSection{
     background-image: url("../img/new/alanyaBackground.jpg");
     min-height: 325px;
-    /*margin-top: 50px;*/
     background-size: cover !important;
     background-position: 50% 75% !important;
     opacity: 0.7;
-    /*filter: alpha(opacity=50);*/
+}
+
+
+/*Modal options*/
+
+.modal-body p{
+    font-family: Adobe;
+    font-size: 21px;
+}
+
+.modal-body h2{
+    font-family: Adobe;
 }

@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -236,7 +236,8 @@
                             order to guarantee high-quality service and personal approach to every student. Students
                             choose one course from the following options:</p>
                         <div class="centered-button">
-                            <a type="button" class="btn btn-primary academics-button" id="Button1" onclick="switchVisible();"><b>Academic
+                            <a type="button" class="btn btn-primary academics-button" id="Button1"
+                               onclick="switchVisible();"><b>Academic
                                 options</b>
                             </a>
                         </div>
@@ -248,11 +249,11 @@
                                 Academics</p>
                             <ul class="academics-list">
                                 <li>
-                                    <p><a id="space">Space Engineering</a></p>
-                                    <p><a id="game">Game Development</a></p>
-                                    <p><a id="creative">Creative Writing</a></p>
-                                    <p><a id="sat">SAT Reasoning</a></p>
-                                    <p><a id="ielts">IELTS</a></p>
+                                    <p><a data-toggle="modal" data-target="#space">Space Engineering</a></p>
+                                    <p><a data-toggle="modal" data-target="#game">Game Development</a></p>
+                                    <p><a data-toggle="modal" data-target="#creative">Creative Writing</a></p>
+                                    <p><a data-toggle="modal" data-target="#sat">SAT Reasoning</a></p>
+                                    <p><a data-toggle="modal" data-target="#ielts">IELTS</a></p>
                                 </li>
                             </ul>
 
@@ -330,11 +331,11 @@
                             <p class="advanced-chunk-title list-title">Electives</p>
                             <ul class="academics-list">
                                 <li>
-                                    <p><a id="tennis">Tennis</a></p>
-                                    <p><a id="film">Film </a></p>
-                                    <p><a id="archery">Archery</a></p>
-                                    <p><a id="theatre">Theatre</a></p>
-                                    <p><a id="public">Public Speaking</a></p>
+                                    <p><a data-toggle="modal" data-target="#tennis">Tennis</a></p>
+                                    <p><a data-toggle="modal" data-target="#film">Film </a></p>
+                                    <p><a data-toggle="modal" data-target="#archery">Archery</a></p>
+                                    <p><a data-toggle="modal" data-target="#theatre">Theatre</a></p>
+                                    <p><a data-toggle="modal" data-target="#public">Public Speaking</a></p>
                                 </li>
                             </ul>
 
@@ -421,10 +422,10 @@
                                 Activities</p>
                             <ul class="academics-list">
                                 <li>
-                                    <p><a id="trip">Day Trips</a></p>
-                                    <p><a id="enter">Evening Entertainment</a></p>
-                                    <p><a id="games">Team Games</a></p>
-                                    <p><a id="add">Additional Activities</a></p>
+                                    <p><a data-toggle="modal" data-target="#trip">Day Trips</a></p>
+                                    <p><a data-toggle="modal" data-target="#enter">Evening Entertainment</a></p>
+                                    <p><a data-toggle="modal" data-target="#games">Team Games</a></p>
+                                    <p><a data-toggle="modal" data-target="#add">Additional Activities</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -477,7 +478,7 @@
 </div>
 
 
-<div class="col-md-12 partners-background">
+<div class="col-md-12 partners-background" style="display: none">
     <p class="partner-title">Our Partners</p>
     <div class="partners-centered">
         <a target="_blank" href="http://endowmentfund.fizmat.kz/"><img src="img/new/rfmsh.png"
@@ -488,7 +489,7 @@
     </div>
 </div>
 
-<br>
+
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -659,7 +660,7 @@
     </div>
 </div>
 
-
+<!--Video-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -681,6 +682,467 @@
         </div>
     </div>
 </div>
+<!--Video-->
+
+
+<!--Space-->
+<div class="modal fade" id="space" tabindex="-1" role="dialog" aria-labelledby="spaceLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="spaceLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Space
+                    Engineering</h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Space Engineering</b></h2>
+                        <p><b>Acquire exceptional skills in three weeks to
+                            explore stars and launch your own rocket
+                            into space.</b></p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Space-->
+
+<!--Game-->
+<div class="modal fade" id="game" tabindex="-1" role="dialog" aria-labelledby="gameLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="gameLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Game Development</h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Game Development</b></h2>
+                        <p><b>Immerse into cyber world and make your
+                            own old fashioned arcade machine using
+                            Python and Raspberry Pi platform.</b></p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Game-->
+
+
+<!--creative-->
+<div class="modal fade" id="creative" tabindex="-1" role="dialog" aria-labelledby="creativeLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="creativeLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Creative Writing</h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Creative Writing</b></h2>
+                        <p><b>Challenge yourselves creatively and learn to write screenplays in a truly inspiring
+                            environment.</b></p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--creative-->
+
+<!--SAT-->
+<div class="modal fade" id="sat" tabindex="-1" role="dialog" aria-labelledby="satLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="satLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">SAT Reasoning
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>SAT Reasoning
+                        </b></h2>
+                        <p><b>Increase your SAT Reasoning score within three weeks with highly professional and
+                            certified SAT Instructors.</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--SAT-->
+
+<!--ielts-->
+<div class="modal fade" id="ielts" tabindex="-1" role="dialog" aria-labelledby="ieltsLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ieltsLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">IELTS
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/0.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>IELTS
+                        </b></h2>
+                        <p><b>IELTS course will give you the skills and experience to feel prepared, confident and ready
+                            to achieve your personal best.</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ielts-->
+
+
+<!--tennis-->
+<div class="modal fade" id="tennis" tabindex="-1" role="dialog" aria-labelledby="tennisLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tennisLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Tennis
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Tennis
+                        </b></h2>
+                        <p><b>Professional coaches work with our summer students to teach them new skills, achieve their
+                            personal goals and develop a love of the game.
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--tennis-->
+
+<!--film-->
+<div class="modal fade" id="film" tabindex="-1" role="dialog" aria-labelledby="filmLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="filmLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Film
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Film
+                        </b></h2>
+                        <p><b>Students discover the fascinating world of film-making and let their imaginations run
+                            free.
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--film-->
+
+
+<!--archery-->
+<div class="modal fade" id="archery" tabindex="-1" role="dialog" aria-labelledby="archeryLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="archeryLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Archery
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Archery
+                        </b></h2>
+                        <p><b>Build confidence and improve your skills through professional archery coaching in a safe,
+                            fun and international environment. </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--archery-->
+
+<!--theatre-->
+<div class="modal fade" id="theatre" tabindex="-1" role="dialog" aria-labelledby="theatreLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="theatreLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Theatre
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Theatre
+                        </b></h2>
+                        <p><b>IFSS offers its students the opportunity to explore and extend their acting skills and use
+                            them to create their own piece of art.
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--theatre-->
+
+<!--public-->
+<div class="modal fade" id="public" tabindex="-1" role="dialog" aria-labelledby="publicLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="publicLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Public Speaking
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/02.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Public Speaking
+                        </b></h2>
+                        <p><b>Guaranteed to give participants the edge by developing the skills and confidence to
+                            express themselves effectively.
+
+                        </b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--public-->
+
+
+<!--trip-->
+<div class="modal fade" id="trip" tabindex="-1" role="dialog" aria-labelledby="tripLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tripLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Day Trips
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/01.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Day Trips
+                        </b></h2>
+                        <p><b>Summer School trips are scheduled weekend and reserved for a variety of day trips. </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--trip-->
+
+
+<div class="modal fade" id="enter" tabindex="-1" role="dialog" aria-labelledby="enterLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="enterLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Evening Entertainment
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/01.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Evening Entertainment </b></h2>
+                        <p><b>Students at IFSS will enjoy a wide range of exciting evening programs like sport
+                            tournaments, intellectual games and other.
+                        </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="games" tabindex="-1" role="dialog" aria-labelledby="teamLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="teamLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Team Games
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/01.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Team Games</b></h2>
+                        <p><b>Students at IFSS will join a house that promotes teamwork and good sportsmanship. </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="addLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addLabel"
+                    style="text-align: center; font-size: 35px; font-family: Adobe; ">Additional Activities
+                </h5>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/01.jpg" width="400">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><b>Additional Activities</b></h2>
+                        <p><b>Throughout summer school, students are offered many opportunities to take part in a
+                            variety of outdoor pursuits and activities, scheduled at weekends and during timetabled
+                            activity periods</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
@@ -691,6 +1153,8 @@
 
 </body>
 </html>
+
+
 <script>
     $(document).ready(function () {
         $('#myCarousel').carousel({
