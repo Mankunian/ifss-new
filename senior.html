@@ -45,6 +45,14 @@
         }
 
 
+        /*#div2 {
+            display: none;
+        }*/
+
+        #div4 {
+            /*display: none;*/
+        }
+
     </style>
 
 </head>
@@ -221,20 +229,20 @@
 
 
                     </div>
-                    <div id="div1" class="fig-caption academics-section">
+                    <div id="div1" class="fig-caption academics-section" style="display: block">
                         <p class="academics-title">Academics</p>
                         <p class="cta-sub-title academics-content">Core classes will be held in
                             mornings in small cohorts. The duration of the classes is 3 hours. Groups are kept small in
                             order to guarantee high-quality service and personal approach to every student. Students
                             choose one course from the following options:</p>
                         <div class="centered-button">
-                            <a class="btn btn-primary academics-button" id="Button1"><b>Academic
+                            <a type="button" class="btn btn-primary academics-button" id="Button1" onclick="switchVisible();"><b>Academic
                                 options</b>
                             </a>
                         </div>
                     </div>
 
-                    <div id="div2">
+                    <div id="div2" style="display: none">
                         <div class="col-md-6 padding">
                             <p class="advanced-chunk-title list-title">
                                 Academics</p>
@@ -245,7 +253,6 @@
                                     <p><a id="creative">Creative Writing</a></p>
                                     <p><a id="sat">SAT Reasoning</a></p>
                                     <p><a id="ielts">IELTS</a></p>
-                                    <p><a id="esl">ESL</a></p>
                                 </li>
                             </ul>
 
@@ -253,7 +260,7 @@
 
                         <a style="margin: 80px" id="back"><<< back</a>
                     </div>
-                    <script>
+                    <script language="JavaScript">
                         document.getElementById("Button1").addEventListener("click", switchVisible, false);
 
                         function switchVisible() {
@@ -307,7 +314,7 @@
             <!--Electives options-->
             <div class="col-md-12">
                 <div class="team-info">
-                    <div id="div3" class="fig-caption academics-section">
+                    <div id="div3" class="fig-caption academics-section" style="display: block">
                         <h1 class="academics-title">Electives</h1>
                         <p class="cta-sub-title academics-content">Afternoons are designed so that
                             students can broaden their experience and knowledge in chosen fields. The program offers one
@@ -318,7 +325,7 @@
                                 options</b></a>
                         </div>
                     </div>
-                    <div id="div4">
+                    <div id="div4" style="display: none">
                         <div class="col-md-6 padding">
                             <p class="advanced-chunk-title list-title">Electives</p>
                             <ul class="academics-list">
@@ -396,7 +403,7 @@
                     <div class="img-sec">
                         <img id="hideImgActivities" src="img/01.jpg" class="img-responsive">
                     </div>
-                    <div id="div5" class="fig-caption academics-section">
+                    <div id="div5" class="fig-caption academics-section" style="display:block;">
                         <h1 class="academics-title">Activities</h1>
                         <p class="cta-sub-title academics-content">We always remember that our
                             students are on their holidays and we do our best to provide a memorable summer adventure.
@@ -498,7 +505,7 @@
             <div class="carousel-caption">
                 <h2>Dates and Cost</h2>
                 <br>
-                <p>This year’s program is scheduled from June 16 to July 6, 2018. Cost of the summer school is
+                <p>This year’s program is scheduled from June 16 to July 6, 2019. Cost of the summer school is
                     2,300
                     USD. It covers: tuition, accommodation, meals, course materials and equipment; trips and
                     excursions;
