@@ -1,0 +1,20 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .countdown-mobile {
+        text-align: center;
+        font-family: Adobe;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .info {
+        background: #2B4F71;
+        position: absolute;
+        color: #fff;
+        font-size: small;
+        right: 100px;
+    }
+}
+
