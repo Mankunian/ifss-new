@@ -828,6 +828,32 @@ form element
 
 /*Own css*/
 
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    .footer p {
+        font-size: 21px;
+        margin: 5px;
+        font-family: Adobe;
+    }
+}
+
+
+.alanyaImg {
+    background-image: url("../img/new/alanya.jpg");
+    min-height: 520px;
+    margin-top: 50px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+
+.istanbulImg {
+    background-image: url("../img/new/istanbul.jpg");
+    min-height: 520px;
+    margin-top: 50px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+}
+
 #jumbotron {
     float: right;
     padding: 45px 5px 15px 35px;
@@ -859,13 +885,13 @@ form element
     background-position: 50% 50% !important;
 }
 
-.info {
+/*.info {
     background: #2B4F71;
     position: absolute;
     bottom: 80px;
     color: #fff;
     font-size: x-large;
-}
+}*/
 
 .centered-button {
     text-align: center;
@@ -930,13 +956,13 @@ form element
 }
 
 
-.info {
+/*.info {
     background: #2B4F71;
     position: absolute;
     bottom: 40px;
     color: #fff;
     font-size: x-large;
-}
+}*/
 
 
 
