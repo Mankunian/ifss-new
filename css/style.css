@@ -90,7 +90,7 @@ Header
 
 .jumbotron {
     background-color: transparent;
-    padding-top: 90px;
+    /*padding-top: 90px;*/
 }
 
 .jumbotron p.big {
@@ -827,14 +827,15 @@ form element
 /*Own css*/
 
 
-#jumbotron {
+#jumbotron-istanbul {
 
     font-family: Adobe;
     margin-left: 15px;
-    padding: 0 5px 15px 35px;
+    padding: 20px 5px 15px 35px;
     font-size: 55px;
     color: #2b4f71;
     font-weight: 600;
+    float: right;
 }
 
 
@@ -889,10 +890,10 @@ form element
 }
 
 
-#jumbotron1 {
+#jumbotron-alanya {
     font-family: Adobe;
     padding: 20px 5px 15px 35px;
-    font-size: 33px;
+    font-size: 55px;
     font-weight: 600;
 
     text-align: right;
