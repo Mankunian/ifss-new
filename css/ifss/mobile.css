@@ -1,12 +1,38 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+
+    #jumbotron1 {
+        font-family: Adobe;
+        padding: 30px 5px 15px 0;
+        font-size: 34px;
+        font-weight: 600;
+        text-align: right;
+        float: left;
+        color: #fff;
+    }
+
+    #jumbotron {
+        font-family: Adobe;
+        margin-left: 5px;
+        padding: 0px 0px 0px 0px;
+        font-size: 34px;
+        color: #2b4f71;
+        margin-right: 15px;
+        font-weight: 600;
+    }
+
+
+    .jumbotron {
+        padding: 90px 0px 0px 20px !important;
+    }
+
     .info {
         background: #2B4F71;
         position: absolute;
         color: #fff;
         font-size: medium;
         right: 65px;
-        bottom: 100px;
+        bottom: 35px;
         width: 300px;
     }
 

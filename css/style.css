@@ -831,7 +831,7 @@ form element
 
     font-family: Adobe;
     margin-left: 15px;
-    padding: 30px 5px 15px 35px;
+    padding: 0 5px 15px 35px;
     font-size: 34px;
     color: #2b4f71;
     font-weight: 600;
@@ -1026,7 +1026,7 @@ form element
         width: 350px;
         color: #fff;
         font-size: 18px;
-        /*right: 170px;*/
+        right: 170px;
         font-family: Adobe;
     }
 }
@@ -1206,8 +1206,9 @@ h2 {
 .footer p {
     font-size: 21px;
     text-align: center;
-    padding: 20px;
+    padding: 13px;
     font-family: adobe;
+    margin: 0;
 }
 
 
