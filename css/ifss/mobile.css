@@ -38,5 +38,109 @@
         font-size: 16px;
         margin: 0;
     }
+
+
+    .istanbulTitle {
+        text-align: center;
+        color: #fff;
+        font-family: Adobe;
+        font-size: 34px;
+        padding: 15px;
+        margin-top: 0;
+    }
+
+
+    .headerRight {
+        text-align: center;
+        font-family: Adobe;
+        font-size: 21px;
+    }
+
+    .istanbulContent {
+        color: #e9e9e9;
+        font-size: 21px;
+        font-family: Adobe;
+        padding: 30px 20px;
+    }
+
+    .exclusive-section-title {
+        text-align: center;
+        margin-top: 0;
+        font-family: Adobe;
+        font-size: 34px;
+        padding: 15px;
+    }
+
+    .exclusive-content {
+        font-size: 20px;
+        font-family: Adobe;
+        padding: 0px 20px;
+        margin: 0;
+    }
+
+    .applyBtn {
+        font-size: 16px;
+        font-family: Adobe;
+        z-index: 10;
+        background: #CA141B;
+    }
+
+    .accommodation-title {
+        font-size: 34px;
+        font-family: Adobe;
+    }
+
+    .accommodation-content {
+        font-size: 21px;
+        font-family: Adobe;
+        padding: 30px 20px;
+    }
+
+    .vefa-title {
+        font-size: 34px;
+        margin: 0;
+        font-family: Adobe;
+        color: #fff;
+        padding: 15px;
+    }
+
+    .vefa-content {
+        color: #e9e9e9;
+        font-size: 21px;
+        font-family: Adobe;
+        padding: 30px 20px;
+    }
+
+    .img-sec, .fig-caption {
+        width: 100%;
+        float: left;
+        padding: 8px;
+    }
+
+    .faqTitle {
+        font-size: 34px;
+        text-align: center;
+        font-family: Adobe;
+    }
+
+
+    .carousel-caption {
+        top: 0%;
+        right: 5%;
+        padding-top: 0;
+        left: 5%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 34px;
+        font-family: Adobe;
+        padding: 0;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        font-family: Adobe;
+    }
 }
 
