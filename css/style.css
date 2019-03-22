@@ -838,6 +838,15 @@ form element
 }
 
 
+#jumbotron-senior {
+    font-family: Adobe;
+    margin-left: 15px;
+    padding: 35px 5px 15px 35px;
+    font-size: 55px;
+    color: #2b4f71;
+    font-weight: 600;
+}
+
 
 
 
@@ -1019,7 +1028,7 @@ form element
 
 
 @media screen and (max-device-width: 1440px) {
-    .info {
+    .index-btn {
         background: #2B4F71;
         position: absolute;
         bottom: 90px;
@@ -1027,8 +1036,19 @@ form element
         color: #fff;
         font-size: 18px;
         font-family: Adobe;
-        /*right: 170px;*/
+        right: 170px;
     }
+}
+
+.learn-more-btn{
+    background: #2B4F71;
+    position: absolute;
+    bottom: 90px;
+    width: 350px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Adobe;
+    /*right: 170px;*/
 }
 
 
