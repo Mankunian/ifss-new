@@ -573,9 +573,7 @@ cta
         width: 150px;
     }
 
-    .jumbotron {
-        padding: 90px 0px 0px 20px !important;
-    }
+
 }
 
 .footer_copyright a {
@@ -1029,7 +1027,18 @@ form element
 
 
 @media screen and (max-device-width: 1440px) {
-    .index-btn {
+    .index-btn-junior {
+        background: #2B4F71;
+        position: absolute;
+        bottom: 90px;
+        width: 350px;
+        color: #fff;
+        font-size: 18px;
+        font-family: Adobe;
+        right: 170px;
+    }
+
+    .index-btn-senior {
         background: #2B4F71;
         position: absolute;
         bottom: 90px;
