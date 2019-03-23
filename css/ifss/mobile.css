@@ -27,7 +27,7 @@
         color: #fff;
         font-size: 15px;
         font-family: Adobe;
-        right: 75px;
+        right: 25px;
     }
 
     .index-btn-senior {
@@ -38,7 +38,7 @@
         color: #fff;
         font-size: 15px;
         font-family: Adobe;
-        right: 100px;
+        right: 55px;
     }
 
 
@@ -153,15 +153,15 @@
         margin-top: 0;
         font-family: Adobe;
         font-size: 25px;
-        padding: 15px;
+        padding: 15px 0 0;
     }
 
     .exclusive-content {
-        font-size: 17px;
+        font-size: 19px;
         font-family: Adobe;
         padding: 0px 20px;
         margin: 0;
-        line-height: 1.4;
+        line-height: 1.3;
     }
 
     .applyBtn {
