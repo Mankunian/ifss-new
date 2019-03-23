@@ -243,5 +243,14 @@
     }
 
 
+    .location {
+        font-size: 34px;
+        padding: 10px;
+        text-align: center;
+        font-family: Adobe;
+        color: aliceblue;
+         margin: 0;
+    }
+
 }
 

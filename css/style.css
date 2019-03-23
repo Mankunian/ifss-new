@@ -965,13 +965,12 @@ form element
 }
 
 
-/*.info {
-    background: #2B4F71;
-    position: absolute;
-    bottom: 40px;
-    color: #fff;
-    font-size: x-large;
-}*/
+.location{
+    font-size: 55px;
+    text-align: center;
+    font-family: Adobe;
+    color: aliceblue;
+}
 
 
 
