@@ -183,16 +183,16 @@
     }
 
     .vefa-title {
-        font-size: 34px;
+        font-size: 28px;
         margin: 0;
         font-family: Adobe;
         color: #fff;
-        padding: 15px;
+        padding: 10px;
     }
 
     .vefa-content {
         color: #e9e9e9;
-        font-size: 20px;
+        font-size: 19px;
         font-family: Adobe;
         padding: 0px 20px;
     }
@@ -227,6 +227,7 @@
     .carousel-caption p {
         font-size: 16px;
         font-family: Adobe;
+        margin: 0;
     }
 
 
