@@ -1,0 +1,12 @@
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px){
+    .index-btn-junior {
+        background: #2B4F71;
+        position: absolute;
+        bottom: 40px;
+        width: auto;
+        color: #fff;
+        font-size: 15px;
+        font-family: Adobe;
+        right: 25px;
+    }
+}
